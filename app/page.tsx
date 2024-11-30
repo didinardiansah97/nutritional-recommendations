@@ -233,7 +233,7 @@ export default function App() {
         </table>
         <h3 className="text-xl font-semibold">Ikan Salmon</h3>
         <p className="mb-4">
-        Mengonsumsi Ikan salmon yang kaya akan asam lemak omega-3, khususnya EPA "Eicosapentaenoic Acid" dan DHA "Docosahexaenoic Acid". Dalam 100 gram ikan salmon, terdapat sekitar 2.150 mg EPA dan DHA. Omega-3 berperan penting dalam 
+        Mengonsumsi Ikan salmon yang kaya akan asam lemak omega-3, khususnya EPA &quot;Eicosapentaenoic Acid&quot; dan DHA &quot;Docosahexaenoic Acid&quot;. Dalam 100 gram ikan salmon, terdapat sekitar 2.150 mg EPA dan DHA. Omega-3 berperan penting dalam 
         kesehatan otak dan dapat membantu mengurangi gejala depresi serta kecemasan.
         </p>
         <h1>Kandungan Gizi Pada Ikan salmon</h1>
@@ -267,7 +267,7 @@ export default function App() {
         <h3 className="text-xl font-semibold">Pisang</h3>
         <p className="mb-4">
         Mengonsumsi Pisang yang mengandung asam amino triptofan, yang merupakan prekursor untuk produksi serotonin, neurotransmitter yang berfungsi mengatur suasana hati. Serotonin dikenal sebagai 
-        "hormon bahagia" karena dapat memberikan rasa tenang dan memberikan perasaan Bahagia.
+        &quot;hormon bahagia&quot; karena dapat memberikan rasa tenang dan memberikan perasaan Bahagia.
         </p>
         <h1>Kandungan Gizi Pada Pisang</h1>
         <table className="min-w-full border-collapse table-auto mb-4">
@@ -369,7 +369,7 @@ export default function App() {
         <h3 className="text-xl font-semibold">Kacang Kenari</h3>
         <p className="mb-4">
         Mengonsumsi Kacang kenari yang kaya akan asam lemak omega-3, khususnya asam 
-        alfa-linolenat "ALA". Omega-3 telah terbukti memiliki efek positif pada kesehatan mental, termasuk mengurangi gejala depresi dan kecemasan, yang dapat berkontribusi pada pengelolaan kemarahan
+        alfa-linolenat &quot;ALA&quot;. Omega-3 telah terbukti memiliki efek positif pada kesehatan mental, termasuk mengurangi gejala depresi dan kecemasan, yang dapat berkontribusi pada pengelolaan kemarahan
         </p>
         <h1>Kandungan Gizi Pada Kacang Kenari</h1>
         <table className="min-w-full border-collapse table-auto mb-4">
