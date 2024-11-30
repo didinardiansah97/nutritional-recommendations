@@ -624,7 +624,7 @@ export default function App() {
             <h1 className="text-green-700 font-semibold">Biodata</h1>
             <p className="text-green-600">Nama: {submittedData.nama}</p>
             <p className="text-green-600">Umur: {submittedData.usia}</p>
-            <p className="text-green  -600">makanan terakhir yang dimakan: {submittedData.terakhirMakan}</p>
+            <p className="text-green-600">makanan terakhir yang dimakan: {submittedData.terakhirMakan}</p>
           </div>
         )}
 
