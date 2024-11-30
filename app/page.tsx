@@ -553,7 +553,7 @@ export default function App() {
       <img
           src="/image/bergizi.png" // Ganti dengan path gambar PNG Anda
           alt="Biodata Icon"
-          className="w-full max-w-[250px] h-auto object-contain rounded-t-lg mb-4 mx-auto"
+          className="w-full max-w-[200px] h-auto object-contain rounded-t-lg mb-4 mx-auto"
         />
       <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg max-w-lg mx-auto">
         <div className="mb-4">
