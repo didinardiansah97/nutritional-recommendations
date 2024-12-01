@@ -564,6 +564,7 @@ export default function App() {
             placeholder="Masukan Nama"
             value={formData.nama}
             onChange={handleChange}
+            autoComplete="off"
             className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
             required
           />
@@ -577,6 +578,7 @@ export default function App() {
             placeholder="Input Umur"
             value={formData.usia}
             onChange={handleChange}
+            autoComplete="off"
             className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
             required
           />
@@ -590,6 +592,7 @@ export default function App() {
             placeholder="Makanan yang terakhir Anda konsumsi"
             value={formData.terakhirMakan}
             onChange={handleChange}
+            autoComplete="off"
             className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
             required
           />
