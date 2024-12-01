@@ -553,7 +553,7 @@ export default function App() {
       <img
           src="/image/bergizi.png" // Ganti dengan path gambar PNG Anda
           alt="Biodata Icon"
-          className="w-full max-w-[200px] h-auto object-contain rounded-t-lg mb-4 mx-auto"
+          className="w-full max-w-[220px] h-auto object-contain rounded-t-lg mb-4 mx-auto"
         />
       <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg max-w-lg mx-auto">
         <div className="mb-4">
@@ -564,7 +564,7 @@ export default function App() {
             placeholder="Masukan Nama"
             value={formData.nama}
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
             required
           />
         </div>
@@ -577,7 +577,7 @@ export default function App() {
             placeholder="Input Umur"
             value={formData.usia}
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
             required
           />
         </div>
@@ -590,7 +590,7 @@ export default function App() {
             placeholder="Makanan yang terakhir Anda konsumsi"
             value={formData.terakhirMakan}
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
             required
           />
         </div>
@@ -601,13 +601,13 @@ export default function App() {
             name="emosi"
             value={formData.emosi}
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
           >
-            <option value="">Pilih Emosi</option>
-            <option value="Bahagia">Bahagia</option>
-            <option value="Sedih">Sedih</option>
-            <option value="Marah">Marah</option>
-            <option value="Takut">Takut</option>
+            <option className="text-black" value="">Pilih Emosi</option>
+            <option className="text-black" value="Bahagia">Bahagia</option>
+            <option className="text-black" value="Sedih">Sedih</option>
+            <option className="text-black" value="Marah">Marah</option>
+            <option className="text-black" value="Takut">Takut</option>
           </select>
         </div>
   
@@ -633,7 +633,7 @@ export default function App() {
           className="w-[100px] h-[100px] object-cover rounded-t-lg mb-4 mx-auto"
         />
           <h1 className="text-gray-800 text-xl font-semibold text-left text-center">Biodata</h1>
-          <br />
+          <br/>
           <div className="text-gray-700 text-lg mt-2 text-left">
             <span className="font-semibold">Nama: </span>{submittedData.nama}
           </div>
