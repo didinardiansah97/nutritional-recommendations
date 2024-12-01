@@ -549,7 +549,7 @@ export default function App() {
 
   return (
     <div className="p-4">
-      <h1 className="text-2xl font-mono mb-4 text-center">Web Rekomendasi Makanan Berdasarkan Emosi</h1>
+      <h1 className="text-2xl font-semibold font-mono mb-4 text-center">Web Rekomendasi Makanan Berdasarkan Emosi</h1>
       <img
           src="/image/bergizi.png" // Ganti dengan path gambar PNG Anda
           alt="Biodata Icon"
