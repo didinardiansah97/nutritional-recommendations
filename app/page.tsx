@@ -1,3 +1,4 @@
+
 "use client";
 
 import { useState } from "react";
@@ -548,78 +549,83 @@ export default function App() {
   };  
 
   return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold font-mono mb-4 text-center">Web Rekomendasi Makanan Berdasarkan Emosi</h1>
+    
+    <div className="p-4 bg-white ">
+      <h1 className="font-mono font-semibold text-black text-2xl mb-4 text-center ">Web Rekomendasi Makanan Berdasarkan Emosi</h1>
       <img
           src="/image/bergizi.png" // Ganti dengan path gambar PNG Anda
           alt="Biodata Icon"
           className="w-full max-w-[220px] h-auto object-contain rounded-t-lg mb-4 mx-auto"
         />
-      <form onSubmit={handleSubmit} className="bg-white p-6 rounded-lg shadow-lg max-w-lg mx-auto">
-        <div className="mb-4">
-          <label className="block text-gray-700">Nama</label>
+     <form 
+        onSubmit={handleSubmit} 
+        className="p-6 rounded-2xl shadow-xl bg-gradient-to-r from-blue-500 to-indigo-500 max-w-lg mx-auto text-white border border-indigo-600">
+        
+        <h2 className="text-2xl font-bold mb-6 text-center">
+          Form Data Diri
+        </h2>
+        
+        <div className="mb-6">
+          <label className="block text-lg font-semibold mb-2">Nama</label>
           <input
             type="text"
             name="nama"
             placeholder="Masukan Nama"
             value={formData.nama}
             onChange={handleChange}
-            autoComplete="off"
-            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+            className="w-full p-3 rounded-lg bg-white text-black shadow focus:outline-none focus:ring-2 focus:ring-blue-300"
             required
           />
         </div>
-  
-        <div className="mb-4">
-          <label className="block text-gray-700">Umur</label>
+
+        <div className="mb-6">
+          <label className="block text-lg font-semibold mb-2">Umur</label>
           <input
             type="number"
             name="usia"
             placeholder="Input Umur"
             value={formData.usia}
             onChange={handleChange}
-            autoComplete="off"
-            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+            className="w-full p-3 rounded-lg bg-white text-black shadow focus:outline-none focus:ring-2 focus:ring-blue-300"
             required
           />
         </div>
-  
-        <div className="mb-4">
-          <label className="block text-gray-700">Makanan Terakhir yang Dimakan</label>
+
+        <div className="mb-6">
+          <label className="block text-lg font-semibold mb-2">Makanan Terakhir yang Dimakan</label>
           <input
             type="text"
             name="terakhirMakan"
             placeholder="Makanan yang terakhir Anda konsumsi"
             value={formData.terakhirMakan}
             onChange={handleChange}
-            autoComplete="off"
-            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+            className="w-full p-3 rounded-lg bg-white text-black shadow focus:outline-none focus:ring-2 focus:ring-blue-300"
             required
           />
         </div>
-  
-        <div className="mb-4">
-          <label className="block text-gray-700">Pilih Emosi:</label>
+
+        <div className="mb-6">
+          <label className="block text-lg font-semibold mb-2">Pilih Emosi:</label>
           <select
             name="emosi"
             value={formData.emosi}
             onChange={handleChange}
-            className="w-full p-2 border border-gray-300 rounded-md mt-2 focus:outline-none focus:ring-2 focus:ring-blue-500 text-black"
+            className="w-full p-3 rounded-lg bg-white text-black shadow focus:outline-none focus:ring-2 focus:ring-blue-300"
           >
-            <option className="text-black" value="">Pilih Emosi</option>
-            <option className="text-black" value="Bahagia">Bahagia</option>
-            <option className="text-black" value="Sedih">Sedih</option>
-            <option className="text-black" value="Marah">Marah</option>
-            <option className="text-black" value="Takut">Takut</option>
+            <option value="">Pilih Emosi</option>
+            <option value="Bahagia">Bahagia</option>
+            <option value="Sedih">Sedih</option>
+            <option value="Marah">Marah</option>
+            <option value="Takut">Takut</option>
           </select>
         </div>
-  
+
         <div className="text-center">
           <button
             type="submit"
-            className="w-full py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-200 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            className="w-full py-3 rounded-lg bg-gradient-to-r from-purple-700 via-pink-500 to-red-500 text-white font-semibold shadow-md hover:shadow-xl hover:scale-105 transition-transform duration-200 focus:outline-none focus:ring-2 focus:ring-purple-300"
           >
-            Submit
+            Men-Submit
           </button>
         </div>
       </form>
@@ -667,3 +673,6 @@ export default function App() {
     </div>
   );  
 }  
+
+
+
